@@ -1,8 +1,27 @@
 name := """jira-console-client"""
 
-version := "1.0"
+lazy val commonSettings = Seq(
+  version := "0.1-SNAPSHOT",
+  organization := "eu.saramak",
+  scalaVersion := "2.11.8",
+  test in assembly := {}
+)
 
-scalaVersion := "2.11.8"
+
+lazy val app = (project in file("app")).
+  settings(commonSettings: _*).
+  settings(
+    mainClass in assembly := Some("eu.saramak.jira.Jira")
+    // more settings here ...
+  )
+
+lazy val utils = (project in file("utils")).
+  settings(commonSettings: _*).
+  settings(
+    assemblyJarName in assembly := "utils.jar"
+    // more settings here ...
+  )
+
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 

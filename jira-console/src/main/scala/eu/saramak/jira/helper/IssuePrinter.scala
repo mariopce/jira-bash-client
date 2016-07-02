@@ -1,4 +1,4 @@
-package com.saramak.jira.helper
+package eu.saramak.jira.helper
 
 import net.rcarz.jiraclient.Issue
 import net.rcarz.jiraclient._
@@ -9,6 +9,7 @@ import scala.collection.JavaConverters._
 
 import scala.language.implicitConversions
 import scala.collection.convert.WrapAsScala.enumerationAsScalaIterator
+
 /**
  * Created by mario on 02.07.16.
  */

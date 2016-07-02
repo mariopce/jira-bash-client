@@ -3,9 +3,9 @@ package com.saramak.jira
 import java.io.File
 import java.util
 import java.util.Properties
-
-import com.saramak.jira.file.CvsFileNameLoader
-import com.saramak.jira.helper.{UserAnomalyAnalyzer, IssuePrinter, IssueUpdater}
+import eu.saramak.jira.Config
+import eu.saramak.jira.file.CvsFileNameLoader
+import eu.saramak.jira.helper.{UserAnomalyAnalyzer, IssuePrinter, IssueUpdater}
 import net.rcarz.jiraclient._
 
 import scala.collection.JavaConverters._

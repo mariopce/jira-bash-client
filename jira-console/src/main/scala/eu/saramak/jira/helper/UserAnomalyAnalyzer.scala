@@ -1,7 +1,8 @@
-package com.saramak.jira.helper
+package eu.saramak.jira.helper
 
-import com.saramak.jira.{UserProblem, IssueSearcher, Config}
-import com.saramak.jira.file.CvsFileNameLoader
+import com.saramak.jira.IssueSearcher
+import eu.saramak.jira.{Config, UserProblem}
+import eu.saramak.jira.file.CvsFileNameLoader
 import net.rcarz.jiraclient.JiraClient
 
 import scala.collection.mutable.ListBuffer

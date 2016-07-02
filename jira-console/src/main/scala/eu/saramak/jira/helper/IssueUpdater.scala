@@ -1,4 +1,4 @@
-package com.saramak.jira.helper
+package eu.saramak.jira.helper
 
 import net.rcarz.jiraclient.{Field, Issue}
 
@@ -6,8 +6,8 @@ import net.rcarz.jiraclient.{Field, Issue}
  * Created by mario on 02.07.16.
  */
 class IssueUpdater(issue: Issue) {
-  def addSubtask(nextParam: Map[String, String]) : String = {
-     val fl = issue.createSubtask()
+  def addSubtask(nextParam: Map[String, String]): String = {
+    val fl = issue.createSubtask()
     for ((k, v) <- nextParam) {
       fl.field(k, v)
     }
