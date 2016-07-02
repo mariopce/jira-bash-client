@@ -29,6 +29,17 @@ libraryDependencies += "com.github.scopt" %% "scopt" % "3.5.0"
 
 libraryDependencies += "net.rcarz" % "jira-client" % "0.5"
 
+assemblyMergeStrategy in assembly := {
+  case PathList("org", "hamcrest", xs @ _*)         => MergeStrategy.first
+  case PathList("org", "apache", xs @ _*)         => MergeStrategy.first
+  case PathList(ps @ _*) if ps.last endsWith ".html" => MergeStrategy.first
+  case "application.conf"                            => MergeStrategy.concat
+  case "unwanted.txt"                                => MergeStrategy.discard
+  case x =>
+    val oldStrategy = (assemblyMergeStrategy in assembly).value
+    oldStrategy(x)
+}
+
 resolvers += Resolver.sonatypeRepo("public")
 resolvers += DefaultMavenRepository
 

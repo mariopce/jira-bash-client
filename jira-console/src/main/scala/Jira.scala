@@ -42,6 +42,7 @@ object Jira {
         c.copy(project = v)).text("project key")
       opt[File]('c', "config").action((f, c) =>
         c.copy(configFile = f)).text("path to propKey=value file, with username, password and url. ")
+
       cmd("getinfo").action((_, c) => c.copy(mode = "getinfo")).text("getinfo is a command.").children(
         opt[String]("user").action((v, c) => c.copy(infoUser = v)).text("About which user you want get info"),
         opt[String]("report").action((v, c) => c.copy(report = v)).text("Report about anomalies"),
@@ -56,7 +57,7 @@ object Jira {
         opt[String]("status").action((v, c) => c.copy(newStatus = v)).text("change status task you want update"),
         opt[Map[String, String]]("addsubtask").action((s, c) => c.copy(params = s)).text("additional params title description")
       )
-      note("Some notes")
+      note("=================")
 
 
     }
@@ -66,7 +67,7 @@ object Jira {
     parser.parse(args, Config()) match {
 
       case Some(config) =>
-        println(config.url)
+
         if (config.configFile.exists()) {
           val prop = new Properties()
           prop.load(scala.io.Source.fromFile(config.configFile).reader())
@@ -78,7 +79,7 @@ object Jira {
 
         }
         var jiraClient = getJiraClient(config);
-
+        println("Connecting to " + config.url + " as " + config.username)
         if (config.mode == "getinfo") {
           if (!config.task.isEmpty) {
 
@@ -134,10 +135,10 @@ object Jira {
 
       case None =>
         // arguments are bad, error message will have been displayed
-        println("something wrong")
-        println(parser.usage)
+        println("Maybe some params are wrong " + args)
+//        println(parser.usage)
     }
-    println(parser.usage)
+
   }
 }
 
