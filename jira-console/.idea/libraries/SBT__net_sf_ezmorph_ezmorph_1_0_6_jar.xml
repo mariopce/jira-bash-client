@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: net.sf.ezmorph:ezmorph:1.0.6:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.ezmorph/ezmorph/jars/ezmorph-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.ezmorph/ezmorph/docs/ezmorph-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.ezmorph/ezmorph/srcs/ezmorph-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

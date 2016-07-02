@@ -1,0 +1,1058 @@
+New log file opened at Sat Jul 02 08:08:55 CEST 2016 by 11008@mario-samsung
+jvm 11008@mario-samsung
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.11-b03
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/mario/projects/tools/jira-console
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/mario/.sbt/0.13/plugins
+[Loading] Found non-root projects 
+[Loading] Done in /home/mario/.sbt/0.13/plugins, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/mario/.sbt/0.13/plugins, returning: (global-plugins)
+Loading global plugins from /home/mario/.sbt/0.13/plugins
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@f8c4fce, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Other repositories:
+Default repositories:
+Using inline dependencies specified in Scala.
+[Loading] Scanning directory /home/mario/projects/tools/jira-console/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/mario/projects/tools/jira-console/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/mario/projects/tools/jira-console/project, returning: (jira-console-build)
+Loading project definition from /home/mario/projects/tools/jira-console/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@f8c4fce, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/mario/projects/tools/jira-console
+[Loading] Found non-root projects 
+[Loading] Done in /home/mario/projects/tools/jira-console, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/mario/projects/tools/jira-console, returning: (jira-console)
+Set current project to jira-console-client (in build file:/home/mario/projects/tools/jira-console/)
+Reapplying settings...
+Set current project to jira-console-client (in build file:/home/mario/projects/tools/jira-console/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/home/mario/projects/tools/jira-console/}jira-console/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@5967ac05, check cycles: false
+Read from stdout: Updating {file:/home/mario/projects/tools/jira-console/}jira-console...
+Updating {file:/home/mario/projects/tools/jira-console/}jira-console...
+Other repositories:
+Default repositories:
+Using inline dependencies specified in Scala.
+:: resolving dependencies :: jira-console-client#jira-console-client_2.11;1.0
+	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'compile'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+Read from stdout: Resolving org.scala-lang#scala-library;2.11.8 ...
+Resolving org.scala-lang#scala-library;2.11.8 ...
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2269468a
+sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+	[2.11.8] org.scala-lang#scala-library;2.11.8
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+Read from stdout: Resolving com.github.scopt#scopt_2.11;3.5.0 ...
+Resolving com.github.scopt#scopt_2.11;3.5.0 ...
+sbt-chain: Checking cache for: dependency: com.github.scopt#scopt_2.11;3.5.0 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: com.github.scopt#scopt_2.11;3.5.0
+	found com.github.scopt#scopt_2.11;3.5.0 in sbt-chain
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+Read from stdout: Resolving net.rcarz#jira-client_2.11;0.5 ...
+Resolving net.rcarz#jira-client_2.11;0.5 ...
+sbt-chain: Checking cache for: dependency: net.rcarz#jira-client_2.11;0.5 {compile=[default(compile)]}
+Read from stdout: Resolving net.rcarz#jira-client_2.11;0.5 ...
+Resolving net.rcarz#jira-client_2.11;0.5 ...
+sbt-chain-delegate: Checking cache for: dependency: net.rcarz#jira-client_2.11;0.5 {compile=[default(compile)]}
+		tried /home/mario/.ivy2/local/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	local: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried /home/mario/.sdkman/candidates/activator/1.3.9/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	activator-local: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried /home/mario/.activator/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	activator-launcher-local: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	public: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	typesafe-releases: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	typesafe-ivy-releasez: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	sonatype-public: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	public: no ivy file found for net.rcarz#jira-client_2.11;0.5
+Read from stdout: 	module not found: net.rcarz#jira-client_2.11;0.5
+	module not found: net.rcarz#jira-client_2.11;0.5
+Read from stdout: ==== local: tried
+==== local: tried
+Read from stdout: /home/mario/.ivy2/local/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  /home/mario/.ivy2/local/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== activator-local: tried
+==== activator-local: tried
+Read from stdout: /home/mario/.sdkman/candidates/activator/1.3.9/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  /home/mario/.sdkman/candidates/activator/1.3.9/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== activator-launcher-local: tried
+==== activator-launcher-local: tried
+Read from stdout: /home/mario/.activator/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  /home/mario/.activator/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== public: tried
+==== public: tried
+Read from stdout: https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+Read from stdout: ==== typesafe-releases: tried
+==== typesafe-releases: tried
+Read from stdout: http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+Read from stdout: ==== typesafe-ivy-releasez: tried
+==== typesafe-ivy-releasez: tried
+Read from stdout: http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== sonatype-public: tried
+==== sonatype-public: tried
+Read from stdout: https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+Read from stdout: ==== public: tried
+==== public: tried
+Read from stdout: https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+resolving dependencies for configuration 'runtime'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+resolving dependencies for configuration 'test'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [test]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
+Read from stdout: Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}
+sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
+	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.2 ...
+Resolving org.scala-lang#scala-reflect;2.11.2 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
+	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
+	[2.11.2] org.scala-lang#scala-reflect;2.11.2
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
+resolving dependencies for configuration 'provided'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [provided]
+resolving dependencies for configuration 'optional'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+resolving dependencies for configuration 'compile-internal'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile-internal]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [provided]
+resolving dependencies for configuration 'runtime-internal'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime-internal]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+resolving dependencies for configuration 'test-internal'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [test-internal]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [test]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [provided]
+resolving dependencies for configuration 'plugin'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [plugin]
+resolving dependencies for configuration 'sources'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [sources]
+resolving dependencies for configuration 'docs'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [docs]
+resolving dependencies for configuration 'pom'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [pom]
+resolving dependencies for configuration 'scala-tool'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [scala-tool]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default]
+Read from stdout: Resolving org.scala-lang#scala-compiler;2.11.8 ...
+Resolving org.scala-lang#scala-compiler;2.11.8 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
+	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->default]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->optional(default)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(*)]
+Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.8 ...
+Resolving org.scala-lang#scala-reflect;2.11.8 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(*)]
+Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(*)]
+Read from stdout: Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(*)]
+Read from stdout: Resolving jline#jline;2.12.1 ...
+Resolving jline#jline;2.12.1 ...
+sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(*)]}
+sbt-chain: module revision found in cache: jline#jline;2.12.1
+	found jline#jline;2.12.1 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)]
+	resolved ivy file produced in cache
+:: downloading artifacts ::
+	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
+	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.5.0!scopt_2.11.jar
+	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+:: resolution report :: resolve 2892ms :: artifacts dl 40ms
+Read from stdout: 	::::::::::::::::::::::::::::::::::::::::::::::
+	::::::::::::::::::::::::::::::::::::::::::::::
+Read from stdout: 	::          UNRESOLVED DEPENDENCIES         ::
+	::          UNRESOLVED DEPENDENCIES         ::
+Read from stdout: 	::::::::::::::::::::::::::::::::::::::::::::::
+	::::::::::::::::::::::::::::::::::::::::::::::
+Read from stdout: 	:: net.rcarz#jira-client_2.11;0.5: not found
+	:: net.rcarz#jira-client_2.11;0.5: not found
+Read from stdout: 	::::::::::::::::::::::::::::::::::::::::::::::
+	::::::::::::::::::::::::::::::::::::::::::::::
+
+	report for jira-console-client#jira-console-client_2.11;1.0 compile produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-compile.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 runtime produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-runtime.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 test produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-test.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 provided produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-provided.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 optional produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-optional.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 compile-internal produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-compile-internal.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 runtime-internal produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-runtime-internal.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 test-internal produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-test-internal.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 plugin produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-plugin.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 sources produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-sources.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 docs produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-docs.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 pom produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-pom.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 scala-tool produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-scala-tool.xml
+	resolve done (2892ms resolve - 40ms download)
+Read from stdout: 
+Read from stdout: 	Note: Unresolved dependencies path:
+
+	Note: Unresolved dependencies path:
+Read from stdout: 		net.rcarz:jira-client_2.11:0.5 (/home/mario/projects/tools/jira-console/build.sbt#L11-12)
+		net.rcarz:jira-client_2.11:0.5 (/home/mario/projects/tools/jira-console/build.sbt#L11-12)
+Read from stdout: 		  +- jira-console-client:jira-console-client_2.11:1.0
+		  +- jira-console-client:jira-console-client_2.11:1.0
+unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+sbt.ResolveException: unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:291)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:188)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:165)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:132)
+	at sbt.IvySbt.sbt$IvySbt$$action$1(Ivy.scala:57)
+	at sbt.IvySbt$$anon$4.call(Ivy.scala:65)
+	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)
+	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)
+	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)
+	at xsbt.boot.Using$.withResource(Using.scala:10)
+	at xsbt.boot.Using$.apply(Using.scala:9)
+	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)
+	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)
+	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+	at xsbt.boot.Locks$.apply(Locks.scala:28)
+	at sbt.IvySbt.withDefaultLogger(Ivy.scala:65)
+	at sbt.IvySbt.withIvy(Ivy.scala:127)
+	at sbt.IvySbt.withIvy(Ivy.scala:124)
+	at sbt.IvySbt$Module.withModule(Ivy.scala:155)
+	at sbt.IvyActions$.updateEither(IvyActions.scala:165)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1369)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1365)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1399)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1397)
+	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1402)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1396)
+	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)
+	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1419)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1348)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1310)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Read from stdout: (*:update) sbt.ResolveException: unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+(*:update) sbt.ResolveException: unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+Total time: 4 s, completed Jul 2, 2016 8:09:19 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/mario/projects/tools/jira-console/}jira-console/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b87f566, check cycles: false
+Read from stdout: Updating {file:/home/mario/projects/tools/jira-console/}jira-console...
+Updating {file:/home/mario/projects/tools/jira-console/}jira-console...
+Other repositories:
+Default repositories:
+Using inline dependencies specified in Scala.
+:: resolving dependencies :: jira-console-client#jira-console-client_2.11;1.0
+	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'compile'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+Read from stdout: Resolving org.scala-lang#scala-library;2.11.8 ...
+Resolving org.scala-lang#scala-library;2.11.8 ...
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5aab74b2
+sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+	[2.11.8] org.scala-lang#scala-library;2.11.8
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+Read from stdout: Resolving com.github.scopt#scopt_2.11;3.5.0 ...
+Resolving com.github.scopt#scopt_2.11;3.5.0 ...
+sbt-chain: Checking cache for: dependency: com.github.scopt#scopt_2.11;3.5.0 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: com.github.scopt#scopt_2.11;3.5.0
+	found com.github.scopt#scopt_2.11;3.5.0 in sbt-chain
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+Read from stdout: Resolving net.rcarz#jira-client_2.11;0.5 ...
+Resolving net.rcarz#jira-client_2.11;0.5 ...
+sbt-chain: Checking cache for: dependency: net.rcarz#jira-client_2.11;0.5 {compile=[default(compile)]}
+Read from stdout: Resolving net.rcarz#jira-client_2.11;0.5 ...
+Resolving net.rcarz#jira-client_2.11;0.5 ...
+sbt-chain-delegate: Checking cache for: dependency: net.rcarz#jira-client_2.11;0.5 {compile=[default(compile)]}
+		tried /home/mario/.ivy2/local/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	local: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried /home/mario/.sdkman/candidates/activator/1.3.9/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	activator-local: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried /home/mario/.activator/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	activator-launcher-local: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	public: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	typesafe-releases: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+	typesafe-ivy-releasez: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	sonatype-public: no ivy file found for net.rcarz#jira-client_2.11;0.5
+		tried https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+	public: no ivy file found for net.rcarz#jira-client_2.11;0.5
+Read from stdout: 	module not found: net.rcarz#jira-client_2.11;0.5
+	module not found: net.rcarz#jira-client_2.11;0.5
+Read from stdout: ==== local: tried
+==== local: tried
+Read from stdout: /home/mario/.ivy2/local/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  /home/mario/.ivy2/local/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== activator-local: tried
+==== activator-local: tried
+Read from stdout: /home/mario/.sdkman/candidates/activator/1.3.9/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  /home/mario/.sdkman/candidates/activator/1.3.9/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== activator-launcher-local: tried
+==== activator-launcher-local: tried
+Read from stdout: /home/mario/.activator/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  /home/mario/.activator/repository/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== public: tried
+==== public: tried
+Read from stdout: https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+Read from stdout: ==== typesafe-releases: tried
+==== typesafe-releases: tried
+Read from stdout: http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  http://repo.typesafe.com/typesafe/releases/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+Read from stdout: ==== typesafe-ivy-releasez: tried
+==== typesafe-ivy-releasez: tried
+Read from stdout: http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+  http://repo.typesafe.com/typesafe/ivy-releases/net.rcarz/jira-client_2.11/0.5/ivys/ivy.xml
+Read from stdout: ==== sonatype-public: tried
+==== sonatype-public: tried
+Read from stdout: https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  https://oss.sonatype.org/content/repositories/public/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+Read from stdout: ==== public: tried
+==== public: tried
+Read from stdout: https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+  https://repo1.maven.org/maven2/net/rcarz/jira-client_2.11/0.5/jira-client_2.11-0.5.pom
+resolving dependencies for configuration 'runtime'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+resolving dependencies for configuration 'test'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [test]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
+Read from stdout: Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}
+sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
+	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.2 ...
+Resolving org.scala-lang#scala-reflect;2.11.2 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
+	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
+	[2.11.2] org.scala-lang#scala-reflect;2.11.2
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
+resolving dependencies for configuration 'provided'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [provided]
+resolving dependencies for configuration 'optional'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+resolving dependencies for configuration 'compile-internal'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile-internal]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [provided]
+resolving dependencies for configuration 'runtime-internal'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime-internal]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+resolving dependencies for configuration 'test-internal'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [test-internal]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [test]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [runtime]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->compile]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies com.github.scopt#scopt_2.11;3.5.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->com.github.scopt#scopt_2.11;3.5.0 [compile->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->net.rcarz#jira-client_2.11;0.5 [compile->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [optional]
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [provided]
+resolving dependencies for configuration 'plugin'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [plugin]
+resolving dependencies for configuration 'sources'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [sources]
+resolving dependencies for configuration 'docs'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [docs]
+resolving dependencies for configuration 'pom'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [pom]
+resolving dependencies for configuration 'scala-tool'
+== resolving dependencies for jira-console-client#jira-console-client_2.11;1.0 [scala-tool]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default]
+Read from stdout: Resolving org.scala-lang#scala-compiler;2.11.8 ...
+Resolving org.scala-lang#scala-compiler;2.11.8 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
+	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->default]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->optional(default)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->master(*)]
+Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.8 ...
+Resolving org.scala-lang#scala-reflect;2.11.8 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->master(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [compile->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(*)]
+Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(*)]
+Read from stdout: Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang#scala-reflect;2.11.8 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(*)]
+Read from stdout: Resolving jline#jline;2.12.1 ...
+Resolving jline#jline;2.12.1 ...
+sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(*)]}
+sbt-chain: module revision found in cache: jline#jline;2.12.1
+	found jline#jline;2.12.1 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+== resolving dependencies jira-console-client#jira-console-client_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)]
+	resolved ivy file produced in cache
+:: downloading artifacts ::
+	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
+	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.5.0!scopt_2.11.jar
+	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+:: resolution report :: resolve 1501ms :: artifacts dl 21ms
+Read from stdout: 	::::::::::::::::::::::::::::::::::::::::::::::
+	::::::::::::::::::::::::::::::::::::::::::::::
+Read from stdout: 	::          UNRESOLVED DEPENDENCIES         ::
+	::          UNRESOLVED DEPENDENCIES         ::
+Read from stdout: 	::::::::::::::::::::::::::::::::::::::::::::::
+	::::::::::::::::::::::::::::::::::::::::::::::
+Read from stdout: 	:: net.rcarz#jira-client_2.11;0.5: not found
+	:: net.rcarz#jira-client_2.11;0.5: not found
+Read from stdout: 	::::::::::::::::::::::::::::::::::::::::::::::
+	::::::::::::::::::::::::::::::::::::::::::::::
+
+	report for jira-console-client#jira-console-client_2.11;1.0 compile produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-compile.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 runtime produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-runtime.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 test produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-test.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 provided produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-provided.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 optional produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-optional.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 compile-internal produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-compile-internal.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 runtime-internal produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-runtime-internal.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 test-internal produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-test-internal.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 plugin produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-plugin.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 sources produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-sources.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 docs produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-docs.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 pom produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-pom.xml
+	report for jira-console-client#jira-console-client_2.11;1.0 scala-tool produced in /home/mario/projects/tools/jira-console/target/resolution-cache/reports/jira-console-client-jira-console-client_2.11-scala-tool.xml
+	resolve done (1501ms resolve - 21ms download)
+Read from stdout: 
+Read from stdout: 	Note: Unresolved dependencies path:
+
+	Note: Unresolved dependencies path:
+Read from stdout: 		net.rcarz:jira-client_2.11:0.5 (/home/mario/projects/tools/jira-console/build.sbt#L11-12)
+		net.rcarz:jira-client_2.11:0.5 (/home/mario/projects/tools/jira-console/build.sbt#L11-12)
+Read from stdout: 		  +- jira-console-client:jira-console-client_2.11:1.0
+		  +- jira-console-client:jira-console-client_2.11:1.0
+unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+sbt.ResolveException: unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:291)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:188)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:165)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:132)
+	at sbt.IvySbt.sbt$IvySbt$$action$1(Ivy.scala:57)
+	at sbt.IvySbt$$anon$4.call(Ivy.scala:65)
+	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)
+	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)
+	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)
+	at xsbt.boot.Using$.withResource(Using.scala:10)
+	at xsbt.boot.Using$.apply(Using.scala:9)
+	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)
+	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)
+	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+	at xsbt.boot.Locks$.apply(Locks.scala:28)
+	at sbt.IvySbt.withDefaultLogger(Ivy.scala:65)
+	at sbt.IvySbt.withIvy(Ivy.scala:127)
+	at sbt.IvySbt.withIvy(Ivy.scala:124)
+	at sbt.IvySbt$Module.withModule(Ivy.scala:155)
+	at sbt.IvyActions$.updateEither(IvyActions.scala:165)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1369)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1365)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1399)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1397)
+	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1402)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1396)
+	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)
+	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1419)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1348)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1310)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Read from stdout: (*:update) sbt.ResolveException: unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+(*:update) sbt.ResolveException: unresolved dependency: net.rcarz#jira-client_2.11;0.5: not found
+Total time: 2 s, completed Jul 2, 2016 8:09:21 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 11008@mario-samsung logs at Sat Jul 02 08:10:10 CEST 2016, goodbye.
