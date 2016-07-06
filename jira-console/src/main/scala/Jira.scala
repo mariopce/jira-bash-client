@@ -68,9 +68,13 @@ object Jira {
 
       case Some(config) =>
 
-        if (config.configFile.exists()) {
+        var confpath : File = config.configFile
+        if (!confpath.exists()){
+          confpath = new File("~/.config/" + confpath.getName)
+        }
+        if (confpath.exists()) {
           val prop = new Properties()
-          prop.load(scala.io.Source.fromFile(config.configFile).reader())
+          prop.load(scala.io.Source.fromFile(confpath).reader())
           val propMap = prop.asScala
           config.username = propMap.get("username").get
           config.password = propMap.get("password").get

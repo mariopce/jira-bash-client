@@ -35,6 +35,7 @@ class IssuePrinter(issue: Issue) {
     print(i);
     print(":" + i.getSummary);
     print(":" + i.getDescription);
+    print(":" + i.getStatus)
     print(":")
     printParent()
     println()

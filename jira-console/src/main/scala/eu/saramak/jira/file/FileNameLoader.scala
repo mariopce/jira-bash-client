@@ -10,6 +10,12 @@ trait FileNameLoader {
 
   def loadUser(): Array[String] = {
     import scala.io._
-    Source.fromFile(filename).getLines().toArray
+    println(filename.getAbsolutePath)
+    try {
+         Source.fromFile(filename).getLines().toArray
+    } catch {
+        case e: Exception =>
+          Source.fromFile("~/.config/" + filename.getName).getLines().toArray
+    }
   }
 }
