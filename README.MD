@@ -54,6 +54,15 @@ jira.sh update --task LNS-11 --status "In Progress"
 Change status and add comment. Using different project configuration
 jira.sh -c conf2.prop update --task LNS-11 --status "In Progress" --addcomment "Bla  \\n bla bla"
 
+### Create subtask 
+
+Summary is a title 
+description is a description
+assignee - user which should be assign 
+```
+./jira.sh update --task LNS-2258 --addsubtask "summary=[ISSUE] title with spaces,description=desc with a spaces,assignee=saramakm"
+```
+
 ### Checking task user state
 ```
 jira.sh getinfo --user saramakm --filter "status==inprogress" -u mario -p password -url tomtom.com
