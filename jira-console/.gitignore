@@ -5,3 +5,7 @@
 /project/target/
 /target/
 .idea/**
+.idea/
+.idea
+conf.prop
+users.cvs
