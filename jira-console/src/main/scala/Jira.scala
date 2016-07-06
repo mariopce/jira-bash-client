@@ -45,7 +45,7 @@ object Jira {
 
       cmd("getinfo").action((_, c) => c.copy(mode = "getinfo")).text("getinfo is a command.").children(
         opt[String]("user").action((v, c) => c.copy(infoUser = v)).text("About which user you want get info"),
-        opt[String]("report").action((v, c) => c.copy(report = v)).text("Report about anomalies"),
+        opt[String]("report").action((v, c) => c.copy(report = v)).text("Reports. --report useranomaly, or userstasks"),
         opt[String]("task").action((v, c) => c.copy(task = v)).text("About which task you want get info"),
         opt[String]("filter").action((v, c) => c.copy(filter = v)).text("Filter ex status==inprogress or status==done")
 
@@ -79,7 +79,7 @@ object Jira {
 
         }
         var jiraClient = getJiraClient(config);
-        println("Connecting to " + config.url + " as " + config.username)
+        //println("Connecting to " + config.url + " as " + config.username)
         if (config.mode == "getinfo") {
           if (!config.task.isEmpty) {
 
@@ -90,12 +90,17 @@ object Jira {
                 ip.printGeneralInfo()
                 ip.printAllComments()
                 ip.printWorkLogs()
+                ip.printSubtasks()
               case "comments" =>
                 ip.printAllComments()
               case "general" =>
                 ip.printGeneralInfo()
               case "work" =>
                 ip.printWorkLogs()
+              case "parent" =>
+                ip.printParent()
+              case "subtasks" =>
+                ip.printSubtasks()
             }
           }
           if (!config.infoUser.isEmpty) {

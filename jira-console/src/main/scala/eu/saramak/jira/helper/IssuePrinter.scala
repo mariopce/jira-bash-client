@@ -14,30 +14,51 @@ import scala.collection.convert.WrapAsScala.enumerationAsScalaIterator
  * Created by mario on 02.07.16.
  */
 class IssuePrinter(issue: Issue) {
+
   def printWorkLogs() = {
-    println("Worklog")
+    println("<worklogs>")
     for (work <- issue.getAllWorkLogs.asScala) {
+      println("<work>")
       println(work.toString);
       println("comment: " + work.getComment);
       println("time " + work.getTimeSpentSeconds);
+      println("</work>")
     }
-    println("endWorklog")
+    println("</worklogs>")
   }
 
   def printGeneralInfo() = {
-    println(issue);
-    println("description: " + issue.getDescription);
-    println("sumary: " + issue.getSummary);
+    printIssue(issue)
+  }
+
+  def printIssue(i: Issue): Unit = {
+    print(i);
+    print(":" + i.getSummary);
+    print(":" + i.getDescription);
+    print(":")
+    printParent()
+    println()
   }
 
   def printAllComments(): Unit = {
-    println("comments")
+    println("<comments>")
     for (com <- issue.getComments.asScala) {
-      println("author: " + com.getAuthor)
-      println("date:" + com.getCreatedDate)
+      print("<comment")
+      print(" author=\"" + com.getAuthor+"\"")
+      print(" date=\"" + com.getCreatedDate+"\"")
+      println(">")
       println(com.getBody);
+      println("</comment>")
     }
-    println("endcomments")
+    println("</comments>")
+  }
+  def printParent(): Unit ={
+    print(issue.getParent)
   }
 
+  def printSubtasks(): Unit = {
+     for (s <- issue.getSubtasks.asScala){
+       printIssue(s)
+     }
+  }
 }

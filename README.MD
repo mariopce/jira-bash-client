@@ -80,6 +80,12 @@ Get all comments from task
 jira.sh getinfo --task LNS-123 --filter "comments"
 ```
 
+### Get information reports
+ 
+```
+jira.sh getinfo --report useranomaly
+```
+
 Filter task and display info
 jira.sh getinfo --user admin --filter " AND status=\"In Progress\""
 
