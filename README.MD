@@ -1,5 +1,9 @@
 # Jira bash client
 
+## Status
+
+[![Build Status](https://travis-ci.org/mariopce/jira-bash-client.svg?branch=master)](https://travis-ci.org/mariopce/jira-bash-client)
+
 ## Introduction
 
 I do a lot of things from console. I'm using git flow feature start to start a new task/branch.
