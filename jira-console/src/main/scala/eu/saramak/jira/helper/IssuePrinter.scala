@@ -4,6 +4,7 @@ import net.rcarz.jiraclient.Issue
 import net.rcarz.jiraclient._
 
 import scala.collection.JavaConverters._
+import scala.collection.mutable
 
 // Feature warning if you don't enable implicit conversions...
 
@@ -14,6 +15,18 @@ import scala.collection.convert.WrapAsScala.enumerationAsScalaIterator
  * Created by mario on 02.07.16.
  */
 class IssuePrinter(issue: Issue) {
+  def printSprint() = {
+    val i = issue.getField("customfield_11860").toString
+    val start  = i.indexOf("name=");
+    val end = i.indexOf(",", start)
+    val s = i.substring(start, end);
+
+    println("Sprint:" + s)
+  }
+
+  def printFixVersion() = {
+    println("fixversion:" + issue.getFixVersions)
+  }
 
   def printWorkLogs() = {
     println("<worklogs>")

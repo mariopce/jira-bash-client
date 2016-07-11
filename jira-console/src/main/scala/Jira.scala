@@ -92,6 +92,7 @@ object Jira {
             config.filter match {
               case "" =>
                 ip.printGeneralInfo()
+                ip.printSprint()
                 ip.printAllComments()
                 ip.printWorkLogs()
                 ip.printSubtasks()
@@ -101,6 +102,8 @@ object Jira {
                 ip.printGeneralInfo()
               case "work" =>
                 ip.printWorkLogs()
+              case "sprint" =>
+                ip.printSprint()
               case "parent" =>
                 ip.printParent()
               case "subtasks" =>
